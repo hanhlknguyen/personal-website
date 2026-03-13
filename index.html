@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hanh Nguyen — Cybersecurity professional specializing in vulnerability management, incident response, and secure systems design.">
+  <title>Hanh Nguyen | Cybersecurity &amp; Computer Science</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo"><span class="bracket">{</span> HN <span class="bracket">}</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <canvas id="matrix-canvas"></canvas>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for Opportunities
+        </div>
+        <h1>Hanh Nguyen</h1>
+        <p class="subtitle" id="typed-subtitle"></p>
+        <p class="tagline">
+          UC Irvine CS graduate with hands-on cybersecurity experience at the Metropolitan Water District and Department of Homeland Security. Passionate about defending critical infrastructure and building secure systems.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">⟩ Get In Touch</a>
+          <a href="#experience" class="btn btn-secondary">↓ View My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Introduction</p>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="terminal-window reveal">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">hanh@cybersec ~ %</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">whoami</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Cybersecurity Professional & CS Graduate</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">cat education.txt</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">B.S. Computer Science — UC Irvine, 2025</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">cat specialization.txt</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Information Systems | Dean's Honor List</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">cat interests.txt</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Defense Tech • Open-Source • Cyber Research</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span><span class="typing-cursor"></span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info reveal">
+          <p class="about-text">
+            I'm a Computer Science graduate from UC Irvine with a specialization in Information Systems and a deep passion for cybersecurity. My experience spans vulnerability management at the Metropolitan Water District of Southern California—where I helped protect infrastructure serving <strong style="color:var(--neon-cyan);">19 million residents</strong>—and secure systems development at USCIS under the Department of Homeland Security.
+          </p>
+          <p class="about-text">
+            I thrive at the intersection of security and engineering, combining strong fundamentals in algorithms, networking, and systems design with practical cybersecurity skills like vulnerability assessment, incident response, and forensic data collection.
+          </p>
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="info-card-icon">🎓</div>
+              <div class="info-card-label">Education</div>
+              <div class="info-card-value">UC Irvine — B.S. CS</div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">🛡️</div>
+              <div class="info-card-label">Focus</div>
+              <div class="info-card-value">Cybersecurity</div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">📍</div>
+              <div class="info-card-label">Location</div>
+              <div class="info-card-value">Southern California</div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">⚡</div>
+              <div class="info-card-label">Status</div>
+              <div class="info-card-value">Open to Work</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Technical Arsenal</p>
+        <h2 class="section-title">Skills & Tools</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">💻</span>
+            <span class="skill-category-name">Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C / C++</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML / CSS</span>
+            <span class="skill-tag">MIPS Assembly</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">🔧</span>
+            <span class="skill-category-name">Frameworks & Tools</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS (EC2, RDS)</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Maven</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Linux / Bash</span>
+            <span class="skill-tag">Tanium</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tomcat</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">🛡️</span>
+            <span class="skill-category-name">Specializations</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Cybersecurity</span>
+            <span class="skill-tag">Algorithms & Data Structures</span>
+            <span class="skill-tag">Cloud Infrastructure</span>
+            <span class="skill-tag">Database Systems</span>
+            <span class="skill-tag">Machine Learning</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <span class="skill-category-icon">🎯</span>
+            <span class="skill-category-name">Interests</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Defense Technology</span>
+            <span class="skill-tag">Open-Source Contribution</span>
+            <span class="skill-tag">Cybersecurity Research</span>
+            <span class="skill-tag">Algorithmic Optimization</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Career Path</p>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">JUNE 2025 — PRESENT</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Cybersecurity Intern</h3>
+            <p class="timeline-company">Metropolitan Water District of Southern California, Los Angeles</p>
+            <ul class="timeline-details">
+              <li>Supported vulnerability management operations by conducting security scans, analyzing findings, and coordinating remediation efforts across IT infrastructure serving 19 million residents</li>
+              <li>Leveraged Tanium, Microsoft 365, Excel (Power Query), and Remote Desktop Connection to track security metrics, automate vulnerability assessments, and generate executive-level reporting</li>
+              <li>Collaborated with e-discovery team on incident response and forensic data collection, ensuring data integrity during security investigations and compliance audits</li>
+              <li>Reduced average vulnerability remediation time by implementing systematic tracking and cross-team coordination processes</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">JUNE 2024 — AUGUST 2024</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Student Trainee, Information Technology</h3>
+            <p class="timeline-company">Department of Homeland Security, USCIS</p>
+            <ul class="timeline-details">
+              <li>Developed secure, user-friendly interfaces for government training programs supporting national security operations</li>
+              <li>Conducted data analysis for technical reports and security assessments, contributing to mission-critical project improvements</li>
+              <li>Gained hands-on experience with federal security protocols and compliance requirements</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">SEPTEMBER 2023 — NOVEMBER 2023</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Software Engineer Intern</h3>
+            <p class="timeline-company">Personable, Inc</p>
+            <ul class="timeline-details">
+              <li>Built and deployed AI/ML models for automated data processing and report generation, improving accuracy by 35%</li>
+              <li>Conducted technical research and analysis for product development, directly influencing feature integration decisions</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Academic Background</p>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="education-card reveal">
+        <h3 class="education-school">University of California, Irvine</h3>
+        <p class="education-degree">Bachelor of Science in Computer Science</p>
+        <p class="education-meta">Specialization: Information Systems &nbsp;|&nbsp; Graduated June 2025</p>
+        <p class="education-details">
+          <strong style="color:var(--text-primary)">Relevant Coursework:</strong> Algorithms &amp; Data Structures, Operating Systems, Computer Networks, Database Management, Artificial Intelligence, Machine Learning / Data Mining, Systems Design, Software Engineering, Information Retrieval
+        </p>
+        <span class="education-highlight">🏆 Dean's Honor List — Multiple Terms</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Featured Work</p>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🛒</span>
+            <h3 class="project-name">Full-Stack E-Commerce Platform</h3>
+          </div>
+          <p class="project-description">
+            Architected and deployed a scalable movie commerce application ("Fabflix") handling concurrent users with sub-500ms response times. Implemented secure authentication (HTTPS, reCAPTCHA, salted-hash passwords), search optimization with indexed SQL, and an employee CMS with XML batch processing. Achieved 100/100 project score.
+          </p>
+          <div class="project-tech">
+            <span class="project-tech-tag">Java</span>
+            <span class="project-tech-tag">AWS EC2/RDS</span>
+            <span class="project-tech-tag">MySQL</span>
+            <span class="project-tech-tag">Maven</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🔎</span>
+            <h3 class="project-name">High-Performance Search Engine</h3>
+          </div>
+          <p class="project-description">
+            Engineered a search engine from scratch handling large-scale web page collections with memory-efficient indexing. Implemented advanced ranking algorithms using TF-IDF, stemming, and relevance scoring for production-level performance.
+          </p>
+          <div class="project-tech">
+            <span class="project-tech-tag">Python</span>
+            <span class="project-tech-tag">TF-IDF</span>
+            <span class="project-tech-tag">Distributed Systems</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">💬</span>
+            <h3 class="project-name">Real-Time Communication System</h3>
+          </div>
+          <p class="project-description">
+            Designed and implemented a Direct Messaging Protocol with intuitive Tkinter interface for a distributed social platform. Built robust client-server architecture supporting concurrent messaging and user management.
+          </p>
+          <div class="project-tech">
+            <span class="project-tech-tag">Python</span>
+            <span class="project-tech-tag">Network Protocols</span>
+            <span class="project-tech-tag">GUI Development</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LEADERSHIP ========== -->
+  <section id="leadership">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Beyond Code</p>
+        <h2 class="section-title">Leadership & Impact</h2>
+      </div>
+      <div class="leadership-grid">
+        <div class="leadership-card reveal">
+          <span class="leadership-icon">🍎</span>
+          <div>
+            <h3 class="leadership-title">Apple Pathway Alliance Scholar</h3>
+            <p class="leadership-period">January 2024 — June 2025</p>
+            <p class="leadership-desc">Selected for prestigious career development program; advanced technical and leadership skills through mentoring from Apple professionals.</p>
+          </div>
+        </div>
+        <div class="leadership-card reveal">
+          <span class="leadership-icon">🦁</span>
+          <div>
+            <h3 class="leadership-title">President, Alpha Leo Club</h3>
+            <p class="leadership-period">2018 — 2022</p>
+            <p class="leadership-desc">Led community service initiatives and philanthropic projects, demonstrating mission-focused leadership and team coordination.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Connect</p>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-content">
+        <div class="reveal">
+          <p class="contact-text">
+            I'm currently looking for cybersecurity opportunities where I can help protect critical infrastructure and build secure systems. Whether you have a role in mind, a question, or just want to connect — feel free to reach out.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:hanhlknguyen@gmail.com" class="contact-link">
+              <span class="contact-link-icon">📧</span>
+              hanhlknguyen@gmail.com
+            </a>
+            <a href="tel:714-418-8331" class="contact-link">
+              <span class="contact-link-icon">📱</span>
+              714-418-8331
+            </a>
+            <a href="https://linkedin.com/in/hanhlknguyen" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-link-icon">🔗</span>
+              linkedin.com/in/hanhlknguyen
+            </a>
+          </div>
+        </div>
+        <div class="contact-terminal terminal-window reveal">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">contact — bash</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">echo $STATUS</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Open to cybersecurity roles 🔒</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">cat preferred_roles.txt</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Security Analyst</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">SOC Analyst</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Vulnerability Management</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output">Security Engineer</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$ </span>
+              <span class="terminal-command">ping hanh --message "Let's connect!"</span>
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-output" style="color:var(--neon-green);">✓ Message received! Will respond shortly.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        <span class="highlight">&lt;</span> Designed &amp; Built by Hanh Nguyen <span class="highlight">/&gt;</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
