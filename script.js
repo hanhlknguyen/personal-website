@@ -3,6 +3,7 @@
    =================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+  'use strict';
 
   // ---- Matrix Rain ----
   const canvas = document.getElementById('matrix-canvas');
@@ -157,5 +158,25 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+
+  // ---- Contact Info Deobfuscation ----
+  const emailEl = document.getElementById('contact-email');
+  if (emailEl) {
+    const u = emailEl.dataset.u;
+    const d = emailEl.dataset.d;
+    const addr = u + '@' + d;
+    emailEl.href = 'mailto:' + addr;
+    const valSpan = emailEl.querySelector('.contact-value');
+    if (valSpan) valSpan.textContent = addr;
+  }
+
+  const phoneEl = document.getElementById('contact-phone');
+  if (phoneEl) {
+    const num = phoneEl.dataset.p1 + '-' + phoneEl.dataset.p2 + '-' + phoneEl.dataset.p3;
+    phoneEl.href = 'tel:' + num;
+    const valSpan = phoneEl.querySelector('.contact-value');
+    if (valSpan) valSpan.textContent = num;
+  }
 
 });
